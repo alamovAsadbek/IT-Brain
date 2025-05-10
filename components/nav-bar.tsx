@@ -68,7 +68,7 @@ export function NavBar() {
       transition={{ duration: 0.5 }}
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
-        isScrolled ? "bg-white/95 backdrop-blur-md shadow-md" : "bg-white/80 backdrop-blur-sm",
+        isScrolled ? "bg-white/80 backdrop-blur-md shadow-md" : "bg-white/80  backdrop-blur-md",
       )}
     >
       <div className="container flex h-16 md:h-20 items-center justify-between px-4 md:px-6">
@@ -89,7 +89,7 @@ export function NavBar() {
               <Link
                 href={item.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-[#0e5c2a]",
+                  "text-base font-bold transition-colors hover:text-[#0e5c2a]",
                   item.href === "/" ? "text-[#0e5c2a]" : "text-gray-600"
                 )}
                 onClick={(e) => item.href.startsWith("#") && handleNavClick(e, item.href)}

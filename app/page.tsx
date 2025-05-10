@@ -71,7 +71,7 @@ export default function Home() {
             </ScrollReveal>
 
             <ScrollReveal delay={0.3}>
-              <div className="relative mx-auto w-full max-w-[550px]">
+              <div className="relative mx-auto w-full max-w-[320px] md:max-w-[550px]">
                 <div className="absolute inset-0 bg-[#0e5c2a] rounded-2xl blur-xl opacity-10 transform rotate-6"></div>
                 <div className="relative overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
                   <img src="/hero-image.jpg" alt="IT Brain Training" className="aspect-square object-cover w-full" />
@@ -79,11 +79,10 @@ export default function Home() {
                 <div className="absolute -bottom-6 -left-6 bg-white rounded-lg shadow-xl p-4 flex items-center gap-3 animate-bounce-slow">
 
 
-                <div className="flex items-center">
-  <div className="border rounded-full bg-gray-200 w-8 h-8 z-30"></div>
-  <div className="border rounded-full bg-gray-300 w-8 h-8 -ml-3 z-20"></div>
-  <div className="border rounded-full bg-gray-400 w-8 h-8 -ml-3 z-10"></div>
-</div>
+                  <div className="flex items-center">
+                    <div className="border rounded-full bg-gray-200 w-8 h-8 z-30"></div>
+                    <div className="border rounded-full bg-gray-300 w-8 h-8 -ml-3 z-20"></div>
+                  </div>
                   <div>
                     <p className="text-sm font-medium">200+ talaba</p>
                     <div className="flex text-yellow-500">
