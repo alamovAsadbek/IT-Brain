@@ -93,11 +93,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="text-gray-600 flex items-start gap-2">
                 <ArrowRight className="h-4 w-4 mt-1" />
-                <span>Surxondaryo viloyati Denov tumani.</span>
+                <a href="https://yandex.uz/maps/-/CHr-fV8l" target='_blank'>Surxondaryo viloyati Denov tumani.</a>
               </li>
               <li className="text-gray-600 flex items-center gap-2">
                 <ArrowRight className="h-4 w-4" />
-                <span>itbrain.denov@gmail.com</span>
+                <a href='mailto:itbrain.denov@gmail.com'>itbrain.denov@gmail.com</a>
               </li>
               <li className="text-gray-600 flex items-center gap-2">
                 <ArrowRight className="h-4 w-4" />
