@@ -12,7 +12,7 @@ const testimonials = [
   {
     id: 1,
     name: "Oybek ",
-    role: "IT Brain veb-dasturchi",
+    role: "IT Brain web-dasturchi",
     image: "",
     content:
       "It Brain'dagi veb-dasturlash kursi mening karyeramni butunlay o'zgartirdi. Amaliy yondashuv va tajribali o'qituvchilar menga bitiruvdan keyin bir necha hafta ichida orzu qilgan ishimni topishga yordam berdi.",
@@ -21,7 +21,7 @@ const testimonials = [
   {
     id: 2,
     name: " Asadbek",
-    role: "IT Brain veb-dasturchi",
+    role: "IT Brain FullStack dasturchi",
     image: "",
     content:
       "Men bir necha oy davomida ma'lumotlar ilmini o'z-o'zimdan o'rganishga harakat qildim, lekin natija kam edi. It Brain'dagi tuzilgan o'quv dasturi va mentorlik katta farq yaratdi. Juda tavsiya etaman!",
@@ -30,7 +30,7 @@ const testimonials = [
   {
     id: 3,
     name: " Sodiq",
-    role: "IT Brain veb-dasturchi",
+    role: "IT Brain web-dasturchi",
     image: "",
     content:
       "Kiberhavfsizlik dasturi menga ishimda har kuni foydalanadigan amaliy ko'nikmalarni berdi. O'qituvchilar haqiqiy dunyo tajribasini ulashadigan sanoat mutaxassislaridir.",
@@ -39,7 +39,7 @@ const testimonials = [
   {
     id: 4,
     name: "Amriddin",
-    role: "IT Brain veb-dasturchi",
+    role: "IT Brain web-dasturchi",
     image: "",
     content:
       "To'liq stack dasturlash bootcampini tugatgandan so'ng, men texnik bo'lmagan lavozimdan dasturchi lavozimiga o'ta oldim. Karyera qo'llab-quvvatlash ajoyib edi.",
@@ -66,7 +66,7 @@ const testimonials = [
   {
     id: 7,
     name: "Umid",
-    role: "IT Brain veb-dasturchi",
+    role: "IT Brain web-dasturchi",
     image: "",
     content:
       "Men It Brain'da 12 hafta davomida o'z-o'zimdan o'rganishga sarflagan bir yilga qaraganda ko'proq narsani o'rgandim. O'quv dasturi eng so'nggi sanoat standartlari va texnologiyalari bilan yangilangan.",
@@ -93,7 +93,7 @@ const testimonials = [
   {
     id: 10,
     name: "Siroj",
-    role: "IT Brain Frontend dasturchi",
+    role: "IT Brain FullStack dasturchi",
     image: "",
     content:
       "Bulutli hisoblash kursi menga karyeramni o'zgartirish uchun zarur ko'nikmalar va ishonchni berdi. Laboratoriya va loyihalar qiyin, lekin haqiqiy dunyo amaliyoti uchun juda qimmatli edi.",

@@ -1,6 +1,6 @@
 "use client"
 
-import { Clock, DollarSign, ChevronRight, BookOpen } from "lucide-react"
+import { Clock, DollarSign, ChevronRight, BookOpen, Banknote } from "lucide-react"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -49,7 +49,8 @@ export function CourseCard({ title, description, duration, price, image, level, 
             </div>
             <div className="flex items-center gap-2 text-gray-600">
               <div className="rounded-full bg-[#e6f7e9] p-2">
-                <DollarSign className="h-4 w-4 text-[#0e5c2a]" />
+                <Banknote className="h-4 w-4 text-[#0e5c2a]" />
+                {/*< className="h-4 w-4 text-[#0e5c2a]" />*/}
               </div>
               <span>{price}</span>
             </div>
