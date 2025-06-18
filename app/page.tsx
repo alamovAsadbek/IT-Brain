@@ -348,7 +348,7 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <p className="text-sm text-gray-500">Telefon</p>
-                                            <a href="915748001"><p className="font-medium">+998915748001</p></a>
+                                       <a href="tel:+998915748001" className="font-medium">+998915748001</a>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-5">
